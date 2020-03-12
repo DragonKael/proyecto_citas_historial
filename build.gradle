@@ -1,0 +1,12 @@
+apply plugin: "java"
+apply plugin: "application"
+mainClassName="tech.andean.citas.Main"
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'mysql:mysql-connector-java:5.1.48'
+}
