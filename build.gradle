@@ -1,0 +1,11 @@
+apply plugin: "java"
+apply plugin: "application"
+mainClassName="tech.andean.citas.Main"
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+}
